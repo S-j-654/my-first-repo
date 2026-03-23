@@ -1,0 +1,7 @@
+true_positive = 85
+false_positive = 15
+false_negative = 5
+precision = true_positive/(true_positive+false_positive)
+print (precision)
+recall = true_positive/(true_positive+false_negative)
+print (recall)
